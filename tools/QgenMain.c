@@ -67,7 +67,7 @@ int g_nQueryNumber,
 StringBuffer_t *g_sbTemplateName = NULL;
 
 
-int yydebug;
+static int yydebug;
 int yyparse(void);
 extern FILE *yyin;
 extern 	file_ref_t *pCurrentFile;
